@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion de formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <center>
+<h1>Registro de usuarios</h1> 
+    
+<form action="procesar.php" method="post"></form>
+<label for="nombre">Nombre:</label>
+<input class="fondo" type="text" id="nombre" name="nombre" min="1" max="100" required>
+<br></br>
+
+<label for="apellidos">Apellido</label>
+<input class="fondo" type="text" id="apellidos" name="apellidos" min="1" max="100" required>
+<br></br>
+
+<label for="e-mail">E-mail:</label>
+<input class="fondo" type="e-mail" id="e-mail" name="e-mail" required>
+<br></br>
+
+<label for="edad"> Edad:</label>
+<input class="fondo"type="number" id="edad" name="edad" required>
+<br></br>
+
+<label for="password"> Contraseña:</label>
+<input class="fondo" type="password" id="contraseña" name="contraseña" required>
+
+<br></br>
+
+<label for="genero">Genero:</label>
+<select name="genero" id="genero">
+<option  value="masculino">Masculino</option>
+<option value="femenino">Femenino</option>
+<option value="prefiero no decirlo">Prefiero no decirlo</option>
+</select>
+<br></br>
+
+<label for="Hobbies">Hobbies:</label>
+<input type="checkbox" name="hobbies" id="musica" value="musica">
+<label for="musica">Musica🎶</label>
+<input  class="fondo"type="checkbox" name="hobbies" id="lectura" value="lectura">
+<label for="lectura">Lectura📖</label>
+<input type="checkbox" name="hobbies" id="deporte" value="deporte">
+<label for="deporte">Deporte⚽</label>
+<br></br>
+
+
+<label for="comentario">Comentario:</label>
+<footer>
+<textarea name="comentarios" id="comentario" cols="40" rows="5" placeholder="escribir comentario"></textarea>
+</div>
+<br></br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+
+
+</center>
+</body>
+</html>
