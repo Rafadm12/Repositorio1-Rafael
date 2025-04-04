@@ -1,0 +1,26 @@
+.enlace{
+    display: inline-block;  /* Hace que el enlace tenga dimensiones */
+    padding: 10px 15px;     /* Espaciado dentro del cuadro */
+    border: 2px solid black; /* Borde del cuadro */
+    border-radius: 5px;     /* Bordes redondeados */
+    text-decoration: none;  /* Quita el subrayado */
+    color: black;         /* Color del texto */
+    background-color: aquamarine; /* Fondo blanco */
+    font-weight: bold;      /* Texto en negrita */
+  }
+  
+  .enlace :hover {
+    background-color: white; /* Cambia el fondo al pasar el mouse */
+    color: black;             /* Cambia el color del texto */
+  }
+  
+  .enlace{
+  position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+  }
